@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+.header {
+    height: 80px;
+    width: 100%;
+    background-color: #ccc;
+    position: relative;
+}
+.header .nav {
+    width: 980px;
+    height: 80px;
+    background-color: #666;
+    margin: 0 auto;
+    position: relative;
+}
+.header .nav .nav-title {
+    float: right;
+    display: inline;
+}
+.header .nav .nav-title {
+    list-style-type: none;
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+}
+.header .nav .nav-title li {
+    float: left;
+    padding-left: 28px;
+}
+.header .github-icon {
+    right: 10px;
+    position: absolute;
+    bottom: 0;
+}
