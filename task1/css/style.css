@@ -36,3 +36,35 @@
     position: absolute;
     bottom: 0;
 }
+
+/* banner */
+.banner {
+    width: 100%;
+}
+.banner .banner-content {
+    width: 980px;
+    margin: 0 auto;
+    position: relative;
+}
+.banner .banner-content .banner-content-main {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    line-height: 150%;
+    /*線性漸變，顏色 位置*/
+    background: linear-gradient(rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.5) 75%, rgba(255, 255, 255, 0) 100%);
+}
+.banner .banner-content .banner-content-main .banner-content-title {
+    float: right;
+    font-size: 14px;
+}
+.banner .banner-content .banner-content-main .banner-content-desc {
+    float: right;
+    font-size: 12px;
+    margin-top: 12px;
+}
