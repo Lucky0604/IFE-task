@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+body {
+    background: #ccc;
+}
 /* header */
 .header {
     height: 80px;
@@ -68,3 +70,30 @@
     font-size: 12px;
     margin-top: 12px;
 }
+
+
+
+/* content */
+.block-content {
+    width: 990px;
+    margin: 10px auto;
+    height: 500px;
+}
+.block-content .main-content {
+    width: 320px;
+    background: #fff;
+    font-size: 12px;
+    line-height: 170%;
+    float: left;
+    margin-left: 10px;
+}
+.block-content .main-content .main-content-img {
+    margin: 10px 10px 15px 10px;
+}
+.block-content .main-content .main-content-text {
+    margin: 0px 30px 0px 30px;
+    padding-bottom: 25px;
+}
+
+
+/* name card */
